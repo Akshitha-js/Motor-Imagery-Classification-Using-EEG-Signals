@@ -1,1 +1,1 @@
-# Motor-Imagery-Classification-Using-EEG-Signals
+Welcome to Motor Imagery Classsification Using EEG Signals Repository!
