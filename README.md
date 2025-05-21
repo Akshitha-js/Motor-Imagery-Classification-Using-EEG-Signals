@@ -10,8 +10,8 @@ This project focuses on classifying EEG-based motor imagery signals using cuttin
 This repository implements and compares three powerful models for EEG motor imagery classification:
 
 - ⚙️ **DeepConvNet** — Robust CNN-based model for spatial feature extraction.
-- 🔄 **Self-Normalizing Temporal Convolutional Network (SNN-TCN)** — Effective for capturing temporal dynamics in EEG signals.
-- 🧬 **Hybrid Model** — Combines DeepConvNet, SNN-TCN, and an Attention Mechanism for enhanced performance.
+- 🔄 **Temporal Convolutional Network (TCN)** — Effective for capturing temporal dynamics in EEG signals.
+- 🧬 **Hybrid Model** — Combines DeepConvNet, TCN, and an Attention Mechanism for enhanced performance.
 
 ---
 
@@ -30,7 +30,7 @@ Each model targets different aspects of EEG signal characteristics:
 | Model          | Use Case                                      |
 |----------------|-----------------------------------------------|
 | DeepConvNet    | Strong spatial feature extraction             |
-| SNN-TCN        | Temporal sequence modeling with stability     |
+| TCN            | Temporal sequence modeling with stability     |
 | Hybrid Model   | Best of spatial, temporal, and attention info |
 
 ---
@@ -43,7 +43,7 @@ Each model targets different aspects of EEG signal characteristics:
 
 2. **Model Architectures**:
    - **DeepConvNet**: Multiple convolution + pooling layers optimized for EEG.
-   - **SNN-TCN**: Temporal convolutions with SELU activations for stability.
+   - **TCN**: Temporal convolutions with SELU activations for stability.
    - **Hybrid Model**: Fuses DeepConvNet and SNN-TCN outputs with an attention layer.
 
 3. **Training**:
